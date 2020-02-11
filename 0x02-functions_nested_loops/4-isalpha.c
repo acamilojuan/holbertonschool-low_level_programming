@@ -1,8 +1,10 @@
 #include "holberton.h"
 /**
- * _isalpha(int c) is a counter
- * c is the variable to be checked
- * return is 1 or 0 depends of the condition
+ * _isalpha - is a counter
+ *
+ * @c: is the variable to be checked
+ *
+ * Return: is 1 or 0 depends of the condition
  */
 
 int _isalpha(int c)
