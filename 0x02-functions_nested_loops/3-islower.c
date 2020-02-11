@@ -1,6 +1,10 @@
 #include "holberton.h"
 /**
- * _islower - Int function
+ * _islower - Int function entry point
+ *
+ * @c: parameter in ASCII
+ *
+ * Return: Always 0 (Success)
  */
 
 int _islower(int c)
