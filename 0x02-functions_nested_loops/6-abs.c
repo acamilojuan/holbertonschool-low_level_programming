@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
  * _abs - is the function to use the absolute value
- * @c: is the variable to be checked
- * Return: is 1 or 0 depends of the condition
+ * @number: is the variable to be checked
+ * Return: depends on the condition
  */
 
 int _abs(int number)
@@ -11,7 +11,12 @@ int _abs(int number)
 	{
 		return (number = number * (-1));
 	}
+	else if (number == 0)
+	{
+		return (0);
+	}
 	else
 	{
-
+		return (number);
+	}
 }
