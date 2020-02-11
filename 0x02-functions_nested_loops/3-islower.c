@@ -1,8 +1,6 @@
 #include "holberton.h"
 /**
- * _islower(int c) is a counter
- * c is lower case letter
- * return is 1 or 0 depends of the condition
+ * _islower - Int function
  */
 
 int _islower(int c)
