@@ -1,8 +1,11 @@
 #include "holberton.h"
 /**
-* _putchar function
-* Return: 0
-*/
+  * main - entry point
+  *
+  * _putchar - function to print
+  *
+  * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	_putchar('H');
@@ -15,5 +18,5 @@ int main(void)
 	_putchar('o');
 	_putchar('n');
 	_putchar('\n');
-	return(0);
+	return (0);
 }
