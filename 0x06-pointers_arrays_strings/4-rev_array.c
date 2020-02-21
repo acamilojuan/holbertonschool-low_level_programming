@@ -1,7 +1,8 @@
 #include "holberton.h"
 /**
- * rev_string - function
+ * reverse_array - function
  * @a: pointer
+ * @n: number of elements
  */
 void reverse_array(int *a, int n)
 {
