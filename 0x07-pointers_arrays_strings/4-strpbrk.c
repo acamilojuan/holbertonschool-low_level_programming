@@ -3,7 +3,7 @@
  * _strpbrk - function
  * @accept: pointer input variable
  * @s: input pointer
- * Return: bytes that matches 
+ * Return: bytes that matches
  */
 char *_strpbrk(char *s, char *accept)
 {
@@ -16,6 +16,6 @@ char *_strpbrk(char *s, char *accept)
 	}
 	if (s[a] == accept[a])
 		return (s + a);
-		
+
 	return ('\0');
 }
