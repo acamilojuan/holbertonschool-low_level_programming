@@ -1,1 +1,1 @@
-* This is the Recursion project's directory *
+*This is the Recursion project's directory*
