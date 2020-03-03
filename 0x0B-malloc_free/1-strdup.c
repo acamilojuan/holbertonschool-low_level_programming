@@ -8,8 +8,8 @@
  */
 char *_strdup(char *str)
 {
-	int a;
-	int b;
+	unsigned int a;
+	unsigned int b;
 	char *memstrr;
 
 	if (str == NULL)
