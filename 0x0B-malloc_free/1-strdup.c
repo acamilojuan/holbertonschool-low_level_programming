@@ -25,7 +25,7 @@ char *_strdup(char *str)
 	if (!memstrr)
 		return (NULL);
 
-	for (b = 0; b < a; b++)
+	for (b = 0; b <= a; b++)
 	{
 		memstrr[b] = str[b];
 	}
