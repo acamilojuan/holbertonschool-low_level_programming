@@ -12,9 +12,9 @@ char *_strdup(char *str)
 	int b;
 	char *memstrr;
 
-	if (str == '\0')
+	if (str == NULL)
 	{
-		return ('\0');
+		return (NULL);
 	}
 	for (a = 0; str[a] != '\0';)
 	{
@@ -31,4 +31,3 @@ char *_strdup(char *str)
 	}
 		return (memstrr);
 }
-
