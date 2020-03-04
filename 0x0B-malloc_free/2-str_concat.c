@@ -14,11 +14,11 @@ char *str_concat(char *s1, char *s2)
 
 	a = b = c = d = e = 0;
 
-	if (s1[a] == '\0')
+	if (s1 == 0)
 	{
 		s1 = "";
 	}
-	if (s2[b] == '\0')
+	if (s2 == 0)
 	{
 		s2 = "";
 	}
