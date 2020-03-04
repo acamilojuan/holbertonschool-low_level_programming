@@ -9,8 +9,8 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int a, b, c, d, e;
 	char *s3;
+	unsigned int a, b, c, d, e;
 
 	if (*s1 == '\0')
 	{
