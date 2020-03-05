@@ -10,10 +10,12 @@
 int *array_range(int min, int max)
 {
 	int *array;
+	int a;
 
 	if (min > max)
 		return (NULL);
-	array = malloc(sizeof(int) * (max - min + 1));
+	a = max - min + 1;
+	array = malloc(sizeof(int) * a);
 	if (!array)
 		return (NULL);
 	return (array);
