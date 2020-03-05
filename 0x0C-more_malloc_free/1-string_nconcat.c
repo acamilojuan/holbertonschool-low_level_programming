@@ -14,7 +14,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *s3;
 
 	a = b = c = d = size = 0;
-	
+
 	if (s1 == '\0')
 	{
 		s1 = "";
