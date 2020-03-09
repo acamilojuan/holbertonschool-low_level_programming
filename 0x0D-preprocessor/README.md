@@ -1,1 +1,1 @@
-*This is the malloc, free project's directory*
+*This is the Preprocessor's directory*
