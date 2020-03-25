@@ -14,6 +14,6 @@ int sum_listint(listint_t *head)
 		head = (*head).next;
 	}
 	return (sum);
-	if (head == NULL)
+	if (head == '\0')
 		return (0);
 }
