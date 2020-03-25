@@ -6,11 +6,11 @@
  */
 int sum_listint(listint_t *head)
 {
-	int a, sum;
+	int sum;
 
 	if (head == '\0')
 		return (0);
-	for (a = 0; head != '\0'; a++)
+	while (head != '\0')
 	{
 		sum += (*head).n;
 		head = (*head).next;
