@@ -3,7 +3,7 @@
 #include "holberton.h"
 /**
  * print_square - Function to print squares of # chars
- * @size: Input integer to know the size of the square
+ * @size: Input integer to know the size of the squares
 */
 void print_square(int size)
 {
