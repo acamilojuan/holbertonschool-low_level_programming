@@ -4,7 +4,6 @@
 /**
  * print_square - Function to print squares of # chars
  * @size: Input integer to know the size of the square
- * Return: Always success
 */
 void print_square(int size)
 {
@@ -20,5 +19,4 @@ void print_square(int size)
 		}
 		_putchar('\n');
 	}
-	return
 }
