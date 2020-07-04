@@ -3,11 +3,16 @@ OBJ = $(SRC:.c=.o)
 CC = gcc
 NAME = holberton
 RM = rm -f
+
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
+
 clean:
 	$(RM) *~ holberton
+
 oclean:
 	$(RM) $(OBJ)
+
 fclean: clean oclean
+
 re: oclean all
